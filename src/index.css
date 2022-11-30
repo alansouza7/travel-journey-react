@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Box sizing rules */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html{
+  scroll-behavior: smooth;
+  font-size: 62,5%;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.int-container{
+  padding: 0 1em;
+}
+
+.container {
+  width: 90%;
+  max-width: 550px;
+  border: 1px solid #aaa;
+  min-height: 100vh;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+

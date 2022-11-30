@@ -1,0 +1,31 @@
+.cards{
+    display: flex;
+    margin-bottom: 2.25em;
+    gap: 1.1875em;
+}
+
+.cards:nth-child(1){
+    margin-top: 2.25em;
+}
+
+.img-card{
+    flex-basis: 125px;
+    height: 168px;
+    width: 50%;
+}
+
+.info-card{
+    width: 50%;
+    flex-grow: 1;
+}
+
+span,
+p{
+    font-size: 0.64em;
+    margin-bottom: 0.68359375em;
+}
+
+h1{
+    font-size: 0.78125em;
+    margin-bottom: 0.28em;
+}
